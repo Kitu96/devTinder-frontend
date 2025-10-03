@@ -1,7 +1,20 @@
 import React from "react";
+import Body from "./Body";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Login";
+import Profile from "./Profile";
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline bg-red-600">Hello World</h1>
+    <>
+      <BrowserRouter basename="/">
+        <Routes>
+          <Route path="/" element={<Body />}>
+            <Route path="/login" element={<Login />} />
+            <Route path="/profile" element={<Profile />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
