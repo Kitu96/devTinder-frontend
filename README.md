@@ -25,4 +25,7 @@ Refactore the code to add constant file + Create a component folder
 You should not access other routes without Login
 It token is not presnet redirect to Login page
 Logout
-Profile
+Get feed and add feed in the store(FeedSlice==> AppStore ==> FeedCard==> )
+Edit Profile feacture
+ShowToast Message on save Profile
+See all my connection

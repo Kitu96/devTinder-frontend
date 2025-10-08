@@ -22,7 +22,7 @@ export default function Login() {
       );
 
       dispatch(addUser(res.data));
-      return navigate("/profile");
+      return navigate("/");
     } catch (err) {
       setError(err?.response?.data || "something went wrong");
       console.error(err);
