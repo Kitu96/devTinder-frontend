@@ -30,3 +30,7 @@ Edit Profile feacture
 ShowToast Message on save Profile
 See all my connection
 See all my connection Request
+Feacture- Accept/Reject connection requets
+Send/Ignore the feedCard from the Feed
+Signup New USER
+E2E Testing
