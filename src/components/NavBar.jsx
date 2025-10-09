@@ -58,6 +58,9 @@ export default function NavBar() {
                   <Link to="/connections">Connection</Link>
                 </li>
                 <li>
+                  <Link to="/requests">Request</Link>
+                </li>
+                <li>
                   <Link to="/logout" onClick={handleLogout}>
                     Logout
                   </Link>
